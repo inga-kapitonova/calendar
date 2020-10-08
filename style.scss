@@ -26,7 +26,7 @@ h1 {
   font-size: 34px;
 }
 h2 {
-  font-size: 26px;
+  font-size: 24px;
 }
 h3 {
   font-size: 20px;
@@ -132,7 +132,25 @@ $contmenu-links-height: 38px;
   background-color: #000;
   margin-bottom: 10px;
 }
-
+.interval-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px 0 24px;
+  span {
+    color: #9590a0;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .gear {
+    width: 48px;
+    height: 48px;
+    display: block;
+    background: url("img/gear.png");
+    background-repeat: no-repeat;
+  }
+}
 .interval {
   color: #7a7585;
   padding: 40px;
